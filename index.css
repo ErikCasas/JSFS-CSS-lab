@@ -9,14 +9,23 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
+.bg-li-img {
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+  padding-left: 40px;
+  padding-bottom: 7px;
+}
 .container {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(12, 100px);
   background-color: rgb(186, 186, 186);
-  padding: 10px;
 }
 
 .box {
@@ -46,10 +55,14 @@ body {
   color: white;
   font-weight: bold;
 }
+/* Contact */
+.contacto {
+  grid-row: 2/5;
+}
 
 /* Perfil profesional */
 .perfil {
-  grid-area: 2 / 2 / 4/ 2;
+  grid-area: 2 / 2 / 7/ 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,31 +77,95 @@ body {
 
 /* Direccion */
 .direccion {
-  grid-row: 3/ 4;
+  grid-row: 5/ 7;
 }
 /* Experiencia */
 .experiencia {
-  grid-area: 5 / 2 / 8 / 3;
+  grid-area: 7/2/13/3;
 }
 
 /* Habilidades */
 .habilidades {
-  grid-row: 4/6;
+  grid-row: 7/13;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 
-.list-habilities {
-  list-style-type: none; 
-  gap: 15px;
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .react {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"); /* Establece la imagen para el tercer elemento */
-  background-repeat: no-repeat;
-  background-size: 20px auto;
-  padding-left: 40px;
 }
-/* Educación */
+
+.javaScript {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.work {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/2583/2583214.png"); /* Establece la imagen para el tercer elemento */
+}
+.sql {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/4299/4299956.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.nosql {
+  background-image: url("https://www.javacodegeeks.com/wp-content/uploads/2018/12/3-300x300.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.typeScript {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.node {
+  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.express {
+  background-image: url("https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.node {
+  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.jest {
+  background-image: url("https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.redux {
+  background-image: url("https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png"); /* Establece la imagen para el tercer elemento */
+}
+
+.linkedin {
+  background-image: url("https://cdn-icons-png.flaticon.com/256/174/174857.png");
+}
+
+.gmail {
+  background-image: url("https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png");
+}
+
+.whastsapp {
+  background-image: url("https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png");
+}
+
+.number {
+  background-image: url("https://assets.stickpng.com/thumbs/5a452601546ddca7e1fcbc87.png");
+}
+
+.github {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+}
+
+.country {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/197/992/non_2x/world-png.png");
+}
+
+.postal {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/71/71222.png");
+}
