@@ -32,7 +32,6 @@ li {
   grid-template-columns: 450px 650px;
 }
 
-
 .box {
   background-color: whitesmoke;
   display: flex;
@@ -110,42 +109,42 @@ li {
 }
 
 .react {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png");
 }
 
 .javaScript {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png");
 }
 
 .work {
-  background-image: url("https://cdn-icons-png.flaticon.com/512/2583/2583214.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://cdn-icons-png.flaticon.com/512/2583/2583214.png");
 }
 .sql {
-  background-image: url("https://cdn-icons-png.flaticon.com/512/4299/4299956.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://cdn-icons-png.flaticon.com/512/4299/4299956.png");
 }
 
 .nosql {
-  background-image: url("https://www.javacodegeeks.com/wp-content/uploads/2018/12/3-300x300.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://www.javacodegeeks.com/wp-content/uploads/2018/12/3-300x300.png");
 }
 
 .typeScript {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png");
 }
 
 .node {
-  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png");
 }
 
 .express {
-  background-image: url("https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png");
 }
 
 .node {
-  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://seeklogo.com/images/N/node-js-logo-F4F55CD2D0-seeklogo.com.png");
 }
 
 .jest {
-  background-image: url("https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"); /* Establece la imagen para el tercer elemento */
+  background-image: url("https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png");
 }
 
 .linkedin {
