@@ -31,13 +31,7 @@ li {
   grid-template-rows: repeat(12, auto);
   grid-template-columns: 450px 650px;
 }
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
-  background-color: purple;
-}
+
 
 .box {
   background-color: whitesmoke;
@@ -68,16 +62,16 @@ li {
   font-weight: bold;
 }
 /* Contact */
-.contacto {
+.contac {
   grid-row: 2/5;
 }
 
-.contacto > ul > li:hover {
+.contac > ul > li:hover {
   font-weight: bolder;
 }
 
 /* Perfil profesional */
-.perfil {
+.profile {
   grid-area: 2 / 2 / 7/ 2;
   display: flex;
   flex-direction: column;
@@ -91,11 +85,11 @@ li {
 }
 
 /* Direccion */
-.direccion {
+.adress {
   grid-row: 5/ 7;
 }
 /* Experiencia */
-.experiencia {
+.exp {
   grid-area: 7/2/13/3;
 }
 
@@ -153,7 +147,6 @@ li {
 .jest {
   background-image: url("https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"); /* Establece la imagen para el tercer elemento */
 }
-
 
 .linkedin {
   background-image: url("https://cdn-icons-png.flaticon.com/256/174/174857.png");
